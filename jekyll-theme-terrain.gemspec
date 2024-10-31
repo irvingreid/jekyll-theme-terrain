@@ -2,12 +2,13 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "rain"
-  spec.version       = "0.1.0"
-  spec.authors       = ["Inela Avdic Hukic"]
-  spec.email         = ["inelaah@gmail.com"]
+  spec.name          = "jekyll-theme-terrain"
+  spec.version       = "0.0.1"
+  spec.authors       = ["Irving Reid"]
+  spec.email         = ["irving@cfrq.net"]
 
-  spec.summary       = %q{Rain is a simple and clean Jekyll theme with focus on content.}
-  spec.homepage      = ""
+  spec.summary       = %q{Terrain is a fork of the Rain theme by Inela Avdic Hukic <inelaah@gmail.com>}
+  spec.homepage      = "https://github.com/irvingreid/jekyll-theme-terrain"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
