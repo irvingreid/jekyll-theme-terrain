@@ -1,7 +1,6 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "rain"
   spec.name          = "jekyll-theme-terrain"
   spec.version       = "0.0.1"
   spec.authors       = ["Irving Reid"]
