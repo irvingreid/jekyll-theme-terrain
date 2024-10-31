@@ -1,17 +1,19 @@
+@use "variables";
+
 * {
-  @include box-sizing;
+  @include variables.box-sizing;
   line-height: 1.65;
 }
 
 html,
 body {
-  color: $default-color;
+  color: variables.$default-color;
   margin: 0;
   padding: 0;
 }
 
 html {
-  font-family: $sans-serif;
+  font-family: variables.$sans-serif;
   font-size: 14px;
   overflow-y: scroll;
 
@@ -30,19 +32,19 @@ h3,
 h4,
 h5,
 h6 {
-  color: $default-shade;
-  font-family: $sans-serif;
+  color: variables.$default-shade;
+  font-family: variables.$sans-serif;
   line-height: normal;
 }
 
 a {
-  color: $blue;
+  color: variables.$blue;
   text-decoration: none;
 }
 
 blockquote {
-  border-left: .25rem solid $grey-2;
-  color: $grey-1;
+  border-left: .25rem solid variables.$grey-2;
+  color: variables.$grey-1;
   margin: .8rem 0;
   padding: .5rem 1rem;
 

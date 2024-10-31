@@ -1,9 +1,11 @@
+@use "variables";
+
 .post {
   padding: 3rem 0;
 
   &-info {
-    color: $default-tint;
-    font-family: $sans-serif;
+    color: variables.$default-tint;
+    font-family: variables.$sans-serif;
     letter-spacing: 0.5px;
     text-align: center;
 
@@ -13,15 +15,15 @@
   }
 
   &-title {
-    color: $default-shade;
-    font-family: $sans-serif;
+    color: variables.$default-shade;
+    font-family: variables.$sans-serif;
     font-size: 2.5rem;
     margin: 0 0 1rem 0;
     text-align: center;
   }
 
   &-line {
-    border-top: 0.4rem solid $default-shade;
+    border-top: 0.4rem solid variables.$default-shade;
     display: block;
     margin: 0 auto 3rem;
     width: 4rem;
@@ -41,9 +43,9 @@
   }
 
   img + em {
-    color: $default-tint;
+    color: variables.$default-tint;
     display: block;
-    font-family: $sans-serif;
+    font-family: variables.$sans-serif;
     font-size: 0.9rem;
     font-style: normal;
     text-align: center;
